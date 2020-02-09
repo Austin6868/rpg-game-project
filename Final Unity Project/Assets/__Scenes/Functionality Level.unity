@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 1128841698}
   - component: {fileID: 1128841697}
   - component: {fileID: 1128841696}
+  - component: {fileID: 1128841699}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -274,6 +275,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1128841699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128841695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f7a6e961be9cb4694c459a0f2c631d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referance: {fileID: 5425411840284333191}
+  cameraOffset: {x: 0, y: 0, z: 0}
 --- !u!33 &1545012121920308189
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -415,7 +430,7 @@ GameObject:
   - component: {fileID: 7100876957911120326}
   - component: {fileID: 5425411840447519240}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Base
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
