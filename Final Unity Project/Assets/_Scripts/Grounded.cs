@@ -13,10 +13,6 @@ public class Grounded : MonoBehaviour
         // Allows us to acces the player to check if it is grounded later.
     }
 
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

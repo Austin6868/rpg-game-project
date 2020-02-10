@@ -6,29 +6,71 @@ public class Movement2D : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public float speed = 10.0f;
+    public float speed;
     public float jumpSpeed = 20.0f;
-    public bool isGrounded = false;
+    private float moveInput;
+   
+    private Rigidbody2D rb;
+    
+    private bool facingRight = true;
 
-   void Start()
+    public Transform groundDetect;
+    public bool isGrounded;
+    public float checkRadius;
+    public LayerMask whatIsGround;
+
+    public int doubleJump;
+
+    void Start()
     {
-       
+        rb = GetComponent<Rigidbody2D>();  
     }
+    void FixedUpdate()
+    {
+
+        isGrounded = Physics2D.OverlapCircle(groundDetect.position, checkRadius, whatIsGround);
+
+        moveInput = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        if(facingRight == false && moveInput > 0)
+        {
+            Flip();
+        } else if(facingRight == true && moveInput < 0)
+        {
+            Flip();
+        }
+
+        // Allows the player to move left and right. Flip() calls in an if/else allows flip to be called when
+        // the player begins moving left or right.
+
+    }
+
     void Update()
     {
-        Jump();
+        if(isGrounded == true){
+            doubleJump = 1;
+        }
 
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
-
-        transform.position += movement * Time.deltaTime * speed;
-    }
-
-    void Jump()
-    {
-
-        if (Input.GetButtonDown("Jump") && isGrounded == true)
+        if (Input.GetButtonDown("Jump") && doubleJump == 1)
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpSpeed), ForceMode2D.Impulse);
+            rb.velocity = Vector2.up * jumpSpeed;
+            doubleJump--;
+        } else if(Input.GetButtonDown("Jump") && doubleJump == 0 && isGrounded == true)
+        {
+            rb.velocity = Vector2.up * jumpSpeed;
         }
     }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 scalePiece = transform.localScale;
+        scalePiece.x *= -1;
+        transform.localScale = scalePiece;
+
+        // Allows the player Sprite to flip when moving from the right to the left.
+    }
+
+    
 }
+ 
