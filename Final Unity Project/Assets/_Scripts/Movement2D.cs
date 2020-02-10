@@ -68,6 +68,8 @@ public class Movement2D : MonoBehaviour
         scalePiece.x *= -1;
         transform.localScale = scalePiece;
 
+        // Ask TA/Prof about flipping bullet spawn. Could use transform.Rotate(0, 180f, 0); but that messes with decal.
+
         // Allows the player Sprite to flip when moving from the right to the left.
     }
 
