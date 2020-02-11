@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Movement2D : MonoBehaviour
+public class PlayerBehaviour : MonoBehaviour
 {
     // Start is called before the first frame update
 
@@ -32,10 +33,10 @@ public class Movement2D : MonoBehaviour
 
         moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-        if(facingRight == false && moveInput > 0)
+        if(!facingRight && moveInput > 0)
         {
             Flip();
-        } else if(facingRight == true && moveInput < 0)
+        } else if(facingRight && moveInput < 0)
         {
             Flip();
         }
@@ -64,15 +65,19 @@ public class Movement2D : MonoBehaviour
     void Flip()
     {
         facingRight = !facingRight;
-        Vector3 scalePiece = transform.localScale;
-        scalePiece.x *= -1;
-        transform.localScale = scalePiece;
-
-        // Ask TA/Prof about flipping bullet spawn. Could use transform.Rotate(0, 180f, 0); but that messes with decal.
+        transform.Rotate(0, 180f, 0);
 
         // Allows the player Sprite to flip when moving from the right to the left.
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Doorway"))
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            SewerDoorway.SceneChange();
+        }
+    }
+
 }
  

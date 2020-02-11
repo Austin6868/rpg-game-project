@@ -18,14 +18,14 @@ public class Grounded : MonoBehaviour
     {
         if (collision.collider.CompareTag("Ground"))
         {
-            Player.GetComponent<Movement2D>().isGrounded = true;
+            Player.GetComponent<PlayerBehaviour>().isGrounded = true;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.collider.tag == "Ground")
         {
-            Player.GetComponent<Movement2D>().isGrounded = false;
+            Player.GetComponent<PlayerBehaviour>().isGrounded = false;
 
         }
     }
