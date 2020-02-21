@@ -38,18 +38,25 @@ public class PlayerBehaviour : MonoBehaviour
         if(!facingRight && moveInput > 0)
         {
             Flip();
-            animator.SetFloat("Speed", 1f);
+            
         } else if(facingRight && moveInput < 0)
         {
             Flip();
-            animator.SetFloat("Speed", 1f);
-        }else if(moveInput == 0)
-		{
-            animator.SetFloat("Speed", 0);
+            
         }
         // Allows the player to move left and right. Flip() calls in an if/else allows flip to be called when
         // the player begins moving left or right.
 
+        ///////////////////////////
+		///
+        if (moveInput != 0)
+		{
+            animator.SetFloat("Speed", 1);
+        }
+        if (moveInput == 0)
+        {
+            animator.SetFloat("Speed", 0);
+        }
     }
 
     void Update()
