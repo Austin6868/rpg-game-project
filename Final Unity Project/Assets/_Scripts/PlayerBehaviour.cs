@@ -22,6 +22,8 @@ public class PlayerBehaviour : MonoBehaviour
 
     public int doubleJump;
 
+    public Animator animator;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();  
@@ -36,11 +38,15 @@ public class PlayerBehaviour : MonoBehaviour
         if(!facingRight && moveInput > 0)
         {
             Flip();
+            animator.SetFloat("Speed", 1f);
         } else if(facingRight && moveInput < 0)
         {
             Flip();
+            animator.SetFloat("Speed", 1f);
+        }else if(moveInput == 0)
+		{
+            animator.SetFloat("Speed", 0);
         }
-
         // Allows the player to move left and right. Flip() calls in an if/else allows flip to be called when
         // the player begins moving left or right.
 

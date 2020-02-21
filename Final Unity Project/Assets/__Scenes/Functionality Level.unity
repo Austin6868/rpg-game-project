@@ -1186,6 +1186,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   doubleJump: 0
+  animator: {fileID: 3621636658981807015}
 --- !u!212 &3621636658981807018
 SpriteRenderer:
   m_ObjectHideFlags: 0
