@@ -41,11 +41,10 @@ public class Inventory : MonoBehaviour {
 		{
             inventory.SetActive(false);
 		}
-<<<<<<< HEAD
+
     }
-=======
+
         
     }
 
->>>>>>> austinBranch
-}
+

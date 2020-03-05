@@ -3,15 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-<<<<<<< HEAD:Final Epic Shooter Unity Project/Assets/_Script/Slot.cs
-public class Slot : MonoBehaviour
-=======
-<<<<<<< Updated upstream:Final Epic Shooter Unity Project/Assets/_Script/EquipItems.cs
-public class Items : MonoBehaviour
-=======
+
 public class Slot : MonoBehaviour , IPointerClickHandler
->>>>>>> Stashed changes:Final Epic Shooter Unity Project/Assets/_Script/Slot.cs
->>>>>>> austinBranch:Final Epic Shooter Unity Project/Assets/_Script/EquipItems.cs
+
 {
     public int ID;
     public string type;
