@@ -8,6 +8,10 @@ public class Item : MonoBehaviour
     public int ID;
     public string description;
     public Texture2D icon;
+<<<<<<< HEAD
+=======
+    public bool equipped;
+>>>>>>> austinBranch
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +25,7 @@ public class Item : MonoBehaviour
         
     }
 
+<<<<<<< HEAD
     private void OnTriggerEnter(Collider other)
 	{
         if (other.tag == "Item") {
@@ -33,4 +38,7 @@ public class Item : MonoBehaviour
 	{
 
 	}
+=======
+
+>>>>>>> austinBranch
 }
