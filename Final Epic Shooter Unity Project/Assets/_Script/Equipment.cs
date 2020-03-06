@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Equipment 
 {
 
 
 
-    public static Player e;
+    public static Equipment e;
 
-    public static Player E
+    public static Equipment E
     {
         get
         {
             if (e == null)
             {
-                e = new Player();
+                e = new Equipment();
             }
             return e;
         }
@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     public float EG = 0;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         if (E == null)
         {
@@ -54,11 +54,12 @@ public class Player : MonoBehaviour
         {
             EA = 5;
         }
+        Debug.Log(EA);
 
     }
     public void ModifySlot(int i)
 	{
         EA = i;
-        Debug.Log(EA);
+        
 	}
 }

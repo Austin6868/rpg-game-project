@@ -35,7 +35,7 @@ public class Slot : MonoBehaviour , IPointerClickHandler
         {
             if (transform.name == "Slot (" + (i+1) + ")")
             {
-                Player.E.ModifySlot(i);//this is not the problem with the number i
+                Equipment.E.ModifySlot(i);//this is not the problem with the number i
             }
         }
         

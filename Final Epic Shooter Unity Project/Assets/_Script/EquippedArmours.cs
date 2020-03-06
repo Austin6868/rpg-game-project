@@ -27,13 +27,17 @@ public class EquippedArmours : MonoBehaviour , Equipped
     // Update is called once per frame
     void LateUpdate()
     {
+        Equip();
+        
+    }
+    public void Equip()
+	{
         for (int i = 5; i < 10; i++)
         {
-            if (Player.E.EA == i)
+            if (Equipment.E.EA == i)
             {
                 gameObject.GetComponent<Image>().sprite = spriteList[i - 5];
             }
         }
-        
     }
 }
