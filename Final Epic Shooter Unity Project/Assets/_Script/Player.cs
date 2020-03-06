@@ -7,12 +7,30 @@ public class Player : MonoBehaviour
 
 
 
-    public static Player E;
-    public int EA = 0;
-    public int EG = 5;
+    public static Player e;
+
+    public static Player E
+    {
+        get
+        {
+            if (e == null)
+            {
+                e = new Player();
+            }
+            return e;
+        }
+        set
+        {
+            e = value;
+        }
+    }
+
+
+    public float EA = 5;
+    public float EG = 0;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if (E == null)
         {
@@ -22,21 +40,25 @@ public class Player : MonoBehaviour
         {
             Debug.LogError("Hero.Awake() - attempted to assign second Hero.S");
         }
-    }
 
+    }
+    
     // Update is called once per frame
     void Update()
-    {
-
-
-        if (EA >= 5 && EA >= 0)
+    { 
+        if (EG >= 5 || EG >= 0)
         {
-            EA = 0;
+            EG = 0;
         }
-        if (EG <= 4 && EG > 9)
+        if (EA <= 4 || EA > 9)
         {
-            EG = 5;
+            EA = 5;
         }
 
     }
+    public void ModifySlot(int i)
+	{
+        EA = i;
+        Debug.Log(EA);
+	}
 }

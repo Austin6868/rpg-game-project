@@ -30,12 +30,14 @@ public class Slot : MonoBehaviour , IPointerClickHandler
     }
     public void useItem()
 	{
+        int check = 0;
         for (int i = 0; i < 10; i++)
         {
-            if (transform.name == "slot(" + (i + 1) + ")")
+            if (transform.name == "Slot (" + (i+1) + ")")
             {
-                Player.E.EA = i;
+                Player.E.ModifySlot(i);//this is not the problem with the number i
             }
         }
+        
     }
 }

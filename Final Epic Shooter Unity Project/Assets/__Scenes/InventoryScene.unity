@@ -693,7 +693,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd43755a7f7b745efb43e7749f4f9936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyImage: {fileID: 0}
+  Armour1: {fileID: 21300000, guid: 6270f614e411d41c5b2199206341c3be, type: 3}
+  Armour2: {fileID: 21300000, guid: 13d40c1456a4a43c0963cbeb6c7e7d00, type: 3}
+  Armour3: {fileID: 21300000, guid: ce97e53f8d83347ff884c85988a03c54, type: 3}
+  Armour4: {fileID: 21300000, guid: 4d425656f481d471cb97bdae9991e13f, type: 3}
+  Armour5: {fileID: 21300000, guid: ca9d427399792448a85cc60b2fb10583, type: 3}
+  spriteList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &797684023
 GameObject:
   m_ObjectHideFlags: 0
