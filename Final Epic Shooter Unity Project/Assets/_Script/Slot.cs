@@ -30,7 +30,7 @@ public class Slot : MonoBehaviour , IPointerClickHandler
     }
     public void useItem()
 	{
-        int check = 0;
+        
         for (int i = 0; i < 10; i++)
         {
             if (transform.name == "Slot (" + (i+1) + ")")
