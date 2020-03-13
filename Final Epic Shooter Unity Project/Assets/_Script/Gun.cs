@@ -24,7 +24,7 @@ public class Gun : MonoBehaviour
         Transform playerTransform = player.transform;
         // get player position
         position = playerTransform.position;
-        position.y = position.y - 0.1f;
+        position.y = position.y - 0.2f;
         position.x = position.x + 0.05f;
         
         Debug.Log(position);

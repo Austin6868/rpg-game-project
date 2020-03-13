@@ -59,7 +59,14 @@ public class Equipment
     }
     public void ModifySlot(int i)
 	{
-        EA = i;
+        if (i >=5 && i<10)
+		{
+            EA = i;
+        }else if (i <5 && i >= 0)
+		{
+            EG = i;
+		}
         
+
 	}
 }
