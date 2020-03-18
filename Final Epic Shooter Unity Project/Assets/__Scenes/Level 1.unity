@@ -1448,7 +1448,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d64abda8bb70408c8786d8975fd42b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c70d54b6400bd44ed84e225710e1ccce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1954,11 +1954,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb03ff6bc5f2745ee87fb11458694a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gun1: {fileID: 0}
-  Gun2: {fileID: 0}
-  Gun3: {fileID: 0}
-  Gun4: {fileID: 0}
-  Gun5: {fileID: 0}
+  Gun1: {fileID: 21300000, guid: c70d54b6400bd44ed84e225710e1ccce, type: 3}
+  Gun2: {fileID: 21300000, guid: b481197f342834dd69cb02d71954dcf4, type: 3}
+  Gun3: {fileID: 21300000, guid: d126cf9335beb47b3a6fc861689e7b05, type: 3}
+  Gun4: {fileID: 21300000, guid: b45ba29d7f84d4903a981ea1963da326, type: 3}
+  Gun5: {fileID: 21300000, guid: 3c54a89ef7ef14fb09b402c8c2860093, type: 3}
   spriteList:
   - {fileID: 0}
   - {fileID: 0}
