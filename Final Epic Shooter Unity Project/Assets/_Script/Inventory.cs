@@ -11,13 +11,16 @@ public class Inventory : MonoBehaviour {
     private GameObject []slot;
 
     public GameObject slotHolder;
-
+    public GameObject canvas;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
+        canvas = GameObject.FindWithTag("Canvas");
+        slotHolder = GameObject.FindWithTag("Holder");
+        inventory = GameObject.FindWithTag("Inventory");
         allSlots = 10;
         slot = new GameObject[allSlots];
 
