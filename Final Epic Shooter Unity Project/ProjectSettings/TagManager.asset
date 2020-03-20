@@ -8,6 +8,8 @@ TagManager:
   - Holder
   - Inventory
   - Canvas
+  - Canvas2
+  - HealthBar
   layers:
   - Default
   - TransparentFX
