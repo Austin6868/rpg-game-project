@@ -6,13 +6,29 @@ public class Player : MonoBehaviour
 {
 
 	public int maxHealth = 100;
-	public int currentHealth;
+	private int currentHealth;
 
+    public int CurrentHealth
+	{
+		get
+		{
+			return currentHealth;
+		}
+		set
+		{
+			currentHealth = value;
+            if (currentHealth <= 0)
+			{
+				currentHealth = 0;
+			}
+		}
+	}
 	private HealthBar healthBar;
 
 	// Start is called before the first frame update
 	void Start()
 	{
+
 		currentHealth = maxHealth;
 		healthBar = FindObjectOfType<HealthBar>();
 		healthBar.SetMaxHealth(maxHealth);
