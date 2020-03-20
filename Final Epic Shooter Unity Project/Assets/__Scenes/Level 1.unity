@@ -402,7 +402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 146916972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 150640024}
   - component: {fileID: 150640026}
   - component: {fileID: 150640025}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -566,9 +566,9 @@ GameObject:
   - component: {fileID: 174172010}
   - component: {fileID: 174172009}
   - component: {fileID: 174172011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_111
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -673,9 +673,9 @@ GameObject:
   m_Component:
   - component: {fileID: 247175592}
   - component: {fileID: 247175591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_13
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 257609700}
   - component: {fileID: 257609702}
   - component: {fileID: 257609701}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (12)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1987,9 +1987,9 @@ GameObject:
   - component: {fileID: 271447138}
   - component: {fileID: 271447137}
   - component: {fileID: 271447139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_90
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2096,7 +2096,7 @@ GameObject:
   - component: {fileID: 377641272}
   - component: {fileID: 377641274}
   - component: {fileID: 377641273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (9)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2313,7 +2313,7 @@ GameObject:
   - component: {fileID: 389462856}
   - component: {fileID: 389462858}
   - component: {fileID: 389462857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (17)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2328,7 +2328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389462855}
   m_LocalRotation: {x: 0.30070576, y: -0, z: -0, w: 0.953717}
-  m_LocalPosition: {x: -20.79, y: -21.64, z: 94}
+  m_LocalPosition: {x: -19.8, y: -20.5, z: 94.9}
   m_LocalScale: {x: 0.849, y: 0.7900001, z: 1}
   m_Children: []
   m_Father: {fileID: 146916972}
@@ -2512,7 +2512,7 @@ GameObject:
   - component: {fileID: 485008982}
   - component: {fileID: 485008984}
   - component: {fileID: 485008983}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (15)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2719,9 +2719,9 @@ GameObject:
   - component: {fileID: 560639068}
   - component: {fileID: 560639067}
   - component: {fileID: 560639069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_23 (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2828,7 +2828,7 @@ GameObject:
   - component: {fileID: 581751973}
   - component: {fileID: 581751975}
   - component: {fileID: 581751974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (18)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2936,9 +2936,9 @@ GameObject:
   - component: {fileID: 590714533}
   - component: {fileID: 590714532}
   - component: {fileID: 590714534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_20
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3045,9 +3045,9 @@ GameObject:
   - component: {fileID: 620992010}
   - component: {fileID: 620992009}
   - component: {fileID: 620992011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_23 (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3154,7 +3154,7 @@ GameObject:
   - component: {fileID: 629036710}
   - component: {fileID: 629036712}
   - component: {fileID: 629036711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (4)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3353,7 +3353,7 @@ GameObject:
   - component: {fileID: 675729635}
   - component: {fileID: 675729637}
   - component: {fileID: 675729636}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (8)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3618,7 +3618,7 @@ GameObject:
   - component: {fileID: 733406260}
   - component: {fileID: 733406262}
   - component: {fileID: 733406261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (19)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3823,7 +3823,7 @@ GameObject:
   - component: {fileID: 774853479}
   - component: {fileID: 774853481}
   - component: {fileID: 774853480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (2)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3931,9 +3931,9 @@ GameObject:
   - component: {fileID: 852134777}
   - component: {fileID: 852134776}
   - component: {fileID: 852134778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_23 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4039,9 +4039,9 @@ GameObject:
   m_Component:
   - component: {fileID: 854546039}
   - component: {fileID: 854546038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_32
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4121,9 +4121,9 @@ GameObject:
   m_Component:
   - component: {fileID: 875792462}
   - component: {fileID: 875792461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_81
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4204,9 +4204,9 @@ GameObject:
   - component: {fileID: 887295734}
   - component: {fileID: 887295733}
   - component: {fileID: 887295735}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_23 (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4404,7 +4404,7 @@ GameObject:
   - component: {fileID: 931087209}
   - component: {fileID: 931087211}
   - component: {fileID: 931087210}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (14)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -4675,7 +4675,7 @@ GameObject:
   - component: {fileID: 981700860}
   - component: {fileID: 981700862}
   - component: {fileID: 981700861}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -4783,7 +4783,7 @@ GameObject:
   - component: {fileID: 986289922}
   - component: {fileID: 986289924}
   - component: {fileID: 986289923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (6)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -5152,9 +5152,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1122970995}
   - component: {fileID: 1122970994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_19
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5235,7 +5235,7 @@ GameObject:
   - component: {fileID: 1131066243}
   - component: {fileID: 1131066245}
   - component: {fileID: 1131066244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (5)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -5473,7 +5473,7 @@ GameObject:
   - component: {fileID: 1203476857}
   - component: {fileID: 1203476859}
   - component: {fileID: 1203476858}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (7)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -47662,7 +47662,7 @@ GameObject:
   - component: {fileID: 1208221281}
   - component: {fileID: 1208221283}
   - component: {fileID: 1208221282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (11)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -47769,9 +47769,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1267690898}
   - component: {fileID: 1267690897}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_81 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47851,9 +47851,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1287502270}
   - component: {fileID: 1287502269}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_9
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48063,9 +48063,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1322419521}
   - component: {fileID: 1322419520}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_36
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48146,7 +48146,7 @@ GameObject:
   - component: {fileID: 1322611304}
   - component: {fileID: 1322611306}
   - component: {fileID: 1322611305}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (10)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -48254,7 +48254,7 @@ GameObject:
   - component: {fileID: 1368235802}
   - component: {fileID: 1368235804}
   - component: {fileID: 1368235803}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (23)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -48458,9 +48458,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1447661466}
   - component: {fileID: 1447661465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_32 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48614,7 +48614,7 @@ GameObject:
   - component: {fileID: 1465003196}
   - component: {fileID: 1465003198}
   - component: {fileID: 1465003197}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (20)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -48794,9 +48794,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1491433221}
   - component: {fileID: 1491433220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_26
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48877,7 +48877,7 @@ GameObject:
   - component: {fileID: 1512820168}
   - component: {fileID: 1512820170}
   - component: {fileID: 1512820169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (22)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -49019,9 +49019,9 @@ GameObject:
   - component: {fileID: 1598333387}
   - component: {fileID: 1598333386}
   - component: {fileID: 1598333388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_23
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49128,7 +49128,7 @@ GameObject:
   - component: {fileID: 1601260158}
   - component: {fileID: 1601260160}
   - component: {fileID: 1601260159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (16)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -49236,7 +49236,7 @@ GameObject:
   - component: {fileID: 1721803916}
   - component: {fileID: 1721803918}
   - component: {fileID: 1721803917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (13)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -49344,7 +49344,7 @@ GameObject:
   - component: {fileID: 1741065382}
   - component: {fileID: 1741065384}
   - component: {fileID: 1741065383}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (3)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -49814,12 +49814,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACYn+sy56llTAIAAPIEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMty2jAU/RVG65KxgYTSXWsI6YLAhHay8UaxrrEGWfLoEV7Dv/dKtrFLpyvEOedenfuQL4RLU0FmlV5qzlaKAfk2IP5Mvgw68gWOdKfklp+h1bxzZgsvokHzRi1XiMc+zKgSrObZd7kTXhwh6CTPlS4XbAeJMtYgnFNhACmtrI+WCF0G5Ig/w5kPOeFpNPWnM55m0eCKxwykBd1JW2Erq1VOZoKWFTBvuROPR416HAeZxGIahTeeKSG4aZwQe6pCpQmtjMM6UMA4xcrC9fHDGIEC+K6w3mc/fJ3nBmxjStPTnGtsUZ2X/FB130pq9rWzTyoc3KzXKVf/sMPacq5V+dLeGkf+BlvwbP9GTxk1ttfWPjzvGQ/tOVCxpx8C3guQr2qplZMMSaudD3UGRvPu762wpIBs3+G11TvQVf8fjq/hGmo/JoKXH556mNTAVqjQ7zB60DiZn2g4LIZpUiDqXfw28Ivu+hvUEM9cG4tUU6X09j6U015KFqFnvhpnE6UlBLgxXYGkwp42mMbeD/CO6117xzxT/1aayxuufQJ3IQHu9FF0R23U4TYsU6jDCkyxdlZwCZ1pT7xinxIlZb1f/Z60YVunc5r1wnaOs79Xi0TTeJLNonEew+TxCeLh42jyFI++5lEUA2V0SsLucYl1UrGpjTbtwanJLrnEPWs/IYOlplXYdabpYcnPpeq1nMtcbTMNINd1hptx0HgJvkq2YBwbtAVruQzzJpeUCJXtgaW3RGmodHG0mqZdlpRU/FNZj6QkCd+MlFzJ9Q9QSwMEFAAACAgAAJif6/Q7v99tAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTSUVBKL0osyCgGihiCOKWZKSB2tJKBuaFJsqWBcZphqompWaqhrqmRiZmhkUWagYFhamJKorlSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAJif6zLnqWVMAgAA8gQAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAJif6/Q7v99tAAAAeAAAAAkAJAAAAAAAAAAAAAAAmQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABRAwAAAAA=
+    dataString: UEsDBBQAAAgIAACYn+vy1dZUUQIAAPQEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VEtz2jAQ/iuMziVjGxJKb61DSA8JTGgnF18Ua401yJJHj/Aa/ntXso1dOj2xfPvt7rcP+Uy4NDXkVuml5uxFMSDfRsTb5Muodz7DgW6V3PATdJx3zmzpSTRw3qjlCvHYhxlVgdU8/y63wpMjBJ3khdLVgm0hVcYahAsqDKBLK+ujJULnETngz3juQ45oJTNvndCaR6MLmjlIC7qndsSO1rCczAWtamBeck+eJC17EgeaxGZahheeKyG4aZUQe6xDpymtjcM+kMA4xc5C+fhugkAJfFtar3MYvioKA7YVpenxkWscUZOX/FDN3Cpqdo2yTyqcr5TcPwRVTdKXf/zjRnShVfXc1Y0jX8OWPN+90WNOjR0Mdgg/DqSHAe2p2NEPAe8lyFe11MpJhk6rnQ91BpLH/u+1tbSEfNfjjdQb0NX/X4/v4RK6P6SCVx/edTdtgI1QYeJh+aBxNz9RcDgN06ZA1Kv4beAX3Q5vqHU8cW0sutoupZf3oZz2VLIIM/PdOJsqLSHAregaJBX2uMY09naFN75B2RvPE/WvpS3e+rpHcBMS4J4fRTeutdpfl2VKtX8BU66cFVxCL9o7XnFOqZKyubDhTLqwjdMFzQdhW8fZ36dFolk8zefRpIhhev8A8fg+mT7EydciimKgjM5IuD0usU8q1o3Qdjy4Ndknl3hn3UdktNS0DtfONN0v+alSg5FzWahNrgHkqslwFQ4ai+C7ZAvGcUAbsJbLsG9yzohQ+Q5Ydk2UhU4XB6tp1mfJSM0/lfVIRtLw1cjIhVz+AFBLAwQUAAAICAAAmJ/r9Du/320AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNJRUEovSizIKAaKGII4pZkpIHa0koG5oUmypYFxmmGqialZqqGuqZGJmaGRRZqBgWFqYkqiuVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAmJ/r8tXWVFECAAD0BAAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAmJ/r9Du/320AAAB4AAAACQAkAAAAAAAAAAAAAACeAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAFYDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 0
+  showNavGraphs: 1
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -50011,7 +50011,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1997469424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Map Debris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50065,9 +50065,9 @@ GameObject:
   - component: {fileID: 2004582107}
   - component: {fileID: 2004582106}
   - component: {fileID: 2004582108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_23 (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50231,9 +50231,9 @@ GameObject:
   - component: {fileID: 2045894755}
   - component: {fileID: 2045894754}
   - component: {fileID: 2045894753}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_30
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50339,9 +50339,9 @@ GameObject:
   - component: {fileID: 2055562535}
   - component: {fileID: 2055562534}
   - component: {fileID: 2055562536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_87
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50447,9 +50447,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2067125270}
   - component: {fileID: 2067125269}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_tilemap_all_82
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50686,9 +50686,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2122010897}
   - component: {fileID: 2122010896}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mp_cs_buildings_24
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50902,7 +50902,7 @@ GameObject:
   - component: {fileID: 2135600239}
   - component: {fileID: 2135600241}
   - component: {fileID: 2135600240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree (21)
   m_TagString: Wall
   m_Icon: {fileID: 0}
