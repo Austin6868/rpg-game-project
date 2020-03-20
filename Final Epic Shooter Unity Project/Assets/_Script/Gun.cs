@@ -23,7 +23,7 @@ public class Gun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        
         //the sprite list for guns
         spriteList[0] = Gun1;
         spriteList[1] = Gun2;
@@ -36,6 +36,7 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        player = GameObject.FindWithTag("Player");
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         Transform playerTransform = player.transform;
         // get player position
@@ -43,11 +44,11 @@ public class Gun : MonoBehaviour
         position.y = position.y - 0.2f;
         position.x = position.x + 0.05f;
         
-        Debug.Log(position);
+        
         transform.position = position;
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-        Debug.Log(angle);
+        
         if (angle >90f || angle< -90f)
 		{
             position.y = position.y + 0.1f;

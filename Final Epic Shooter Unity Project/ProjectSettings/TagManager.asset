@@ -12,6 +12,9 @@ TagManager:
   - HealthBar
   - Hero 1
   - Hero 2
+  - Enemy
+  - Wall
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -21,7 +24,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Obstacle
   - 
   - 
   - 

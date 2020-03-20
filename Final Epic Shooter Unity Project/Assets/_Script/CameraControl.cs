@@ -10,13 +10,13 @@ public class CameraControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var vcam = GetComponent<CinemachineVirtualCamera>();
-        vcam.Follow = GameObject.FindWithTag("Player").transform;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        var vcam = GetComponent<CinemachineVirtualCamera>();
+        vcam.Follow = GameObject.FindWithTag("Player").transform;
     }
 }
