@@ -10,6 +10,8 @@ TagManager:
   - Canvas
   - Canvas2
   - HealthBar
+  - Hero 1
+  - Hero 2
   layers:
   - Default
   - TransparentFX
