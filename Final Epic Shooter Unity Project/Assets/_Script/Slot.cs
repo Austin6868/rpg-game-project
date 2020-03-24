@@ -12,22 +12,15 @@ public class Slot : MonoBehaviour , IPointerClickHandler
     public string description;
     public bool empty;
     public Texture2D icon;
-    // Start is called before the first frame update
-    public void OnPointerClick (PointerEventData pointerEventData)
+
+
+    public void OnPointerClick (PointerEventData pointerEventData)//when the mouse is clicked on the certain item it will change the sprite to the desired one
 	{
         useItem();
         Debug.Log("clicked" + transform.name);
 	}
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     public void useItem()
 	{
         
@@ -35,7 +28,7 @@ public class Slot : MonoBehaviour , IPointerClickHandler
         {
             if (transform.name == "Slot (" + (i+1) + ")")
             {
-                Equipment.E.ModifySlot(i);//this is not the problem with the number i
+                Equipment.E.ModifySlot(i);//move the current slot index to the selscted one
             }
         }
         

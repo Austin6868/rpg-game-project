@@ -6,16 +6,14 @@ public class PlayerTwoMovement : PlayerMovement
 {
     public KeyCode[] combo;
     public int currentIndex = 0;
-
-    // Update is called once per frame
     
-	public void LateUpdate()
+	public void LateUpdate()//this script handles when the player presses the space button, the player would teleport.
 	{
         
         float x = transform.position.x;
         float y = transform.position.y;
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        
+            //the "Jump" button is assigned to "Space"
             if(movement.x == -1 && Input.GetButtonDown("Jump"))
 			{
             

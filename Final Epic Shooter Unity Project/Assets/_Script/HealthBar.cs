@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
 
-	public Slider slider;
+	public Slider slider;//this is pointed to the inspector for the easy setup of the health
 	public Gradient gradient;
 	public Image fill;
 
@@ -15,9 +15,9 @@ public class HealthBar : MonoBehaviour
 		slider.maxValue = health;
 		slider.value = health;
 
-		fill.color = gradient.Evaluate(1f);
+		fill.color = gradient.Evaluate(1f);//the color modifier that modifies the color of the bar when the health gets low
 	}
-
+    //this method handles the calculation of the color code
 	public void SetHealth(int health)
 	{
 		slider.value = health;

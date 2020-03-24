@@ -6,7 +6,7 @@ public class Equipment
 {
 
 
-
+    //Singleton for other scripts to check the equipped equipments
     public static Equipment e;
 
     public static Equipment E
@@ -26,13 +26,13 @@ public class Equipment
     }
 
 
-    public float EA = 5;
-    public float EG = 0;
+    public float EA = 5;//the index of equipped armour
+    public float EG = 0;//the index of equipped guns
 
     // Start is called before the first frame update
     void Start()
     {
-        if (E == null)
+        if (E == null)//detecting if the singleton already exists
         {
             E = this;
         }
@@ -43,21 +43,20 @@ public class Equipment
 
     }
     
-    // Update is called once per frame
     void Update()
     { 
-        if (EG >= 5 || EG >= 0)
+        if (EG >= 5 || EG >= 0)//makes sure the guns do not go off index
         {
             EG = 0;
         }
-        if (EA <= 4 || EA > 9)
+        if (EA <= 4 || EA > 9)//makes sure the armours do not go off index
         {
             EA = 5;
         }
         Debug.Log(EA);
 
     }
-    public void ModifySlot(int i)
+    public void ModifySlot(int i)//the method that reaches out for the changes of the the weapons and armours
 	{
         if (i >=5 && i<10)
 		{

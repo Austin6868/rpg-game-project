@@ -12,11 +12,12 @@ public class EquippedGuns : MonoBehaviour , Equipped
     public Sprite Gun4;
     public Sprite Gun5;
 
-    public Sprite[] spriteList = new Sprite[5];
+    public Sprite[] spriteList = new Sprite[5];//a list of guns 
 
-    // Start is called before the first frame update
+    
     void Start()
     {
+        //populate the list of guns
         spriteList[0] = Gun1;
         spriteList[1] = Gun2;
         spriteList[2] = Gun3;
@@ -24,10 +25,9 @@ public class EquippedGuns : MonoBehaviour , Equipped
         spriteList[4] = Gun5;
     }
 
-    // Update is called once per frame
     void LateUpdate()
     {
-        Equip();
+        Equip();//modifies the index of the guns for it to be equipped in the equipped slot
     }
     public void Equip()
     {

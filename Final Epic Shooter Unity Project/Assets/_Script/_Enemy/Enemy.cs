@@ -7,13 +7,13 @@ public class Enemy : MonoBehaviour
     private Player other1;
 
     private int scoreHere;
-    // Start is called before the first frame update
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         other1 = FindObjectOfType<Player>();
@@ -21,9 +21,9 @@ public class Enemy : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other)
-    {//On trigger enter method that detects the collision between the player and the pick up cube objects
+    {//On trigger enter method that detects the collision between the player and the enemy
         if (other.gameObject.tag == "Player")
-        {//the if statement varifies whether the object is the desired cube pick up
+        {//the if statement varifies whether the object is the desired enemy kill
            gameObject.SetActive(false);
            Debug.Log("Triggered");
            other1.TakeDamage(20);

@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Update()
     {
+        //calling the Move() method
         Move();
     }
 
@@ -23,12 +24,14 @@ public class PlayerMovement : MonoBehaviour
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
+    //the movement of the player
     public void Move()
 	{
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         if (movement.x == movement.y || movement.x == -movement.y)
         {
+            //when the player goes diagonally, the speed is adjusted to the normal speed
             movement.x = movement.x / Mathf.Sqrt(2f);
             movement.y = movement.y / Mathf.Sqrt(2f);
         }

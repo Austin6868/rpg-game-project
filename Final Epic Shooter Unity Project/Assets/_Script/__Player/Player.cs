@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
 	private int currentHealth;
 	public Enemy enemy;
 	public Text scoreText;
+    //the CurrentHealth property makes sure that the hitpoints of the Player does not go below 0
 	public int CurrentHealth
 	{
 		get
@@ -29,20 +30,20 @@ public class Player : MonoBehaviour
 	}
 	private HealthBar healthBar;
 
-	// Start is called before the first frame update
+	
 	void Start()
 	{
-		InvokeRepeating("GenerateEnemy", 2f , 2f);
+		InvokeRepeating("GenerateEnemy", 2f , 2f);//The enemy is generated every 2 seconds
 		CurrentHealth = maxHealth;
-		healthBar = FindObjectOfType<HealthBar>();
+		healthBar = FindObjectOfType<HealthBar>();//modify the sprites in HealthBar for it to look like it's taking damage
 		healthBar.SetMaxHealth(maxHealth);
 
 	}
 
-	// Update is called once per frame
+	
 	void Update()
 	{
-		if (currentHealth <= 0)
+		if (currentHealth <= 0)//the player dies after running out of hitpoints
 		{
 			GameObject.FindWithTag("Player").SetActive(false);
 			GameObject.FindWithTag("Gun").SetActive(false);
@@ -54,18 +55,18 @@ public class Player : MonoBehaviour
 		}
 		else
 		{
-			scoreText.text = "Score : " + score;
+			scoreText.text = "Score : " + score;//the text of the score is displayed in the text in the hierarichy
 		}
 	}
 
-	public void TakeDamage(int damage)
+	public void TakeDamage(int damage)//the mothod that modifies player's health
 	{
 		CurrentHealth -= damage;
 
 		healthBar.SetHealth(currentHealth);
 	}
 
-	public void GenerateEnemy()
+	public void GenerateEnemy()//the method that handles the instantiation of the enemy
 	{
 		Enemy enemyCopy = Instantiate<Enemy>(enemy);
 

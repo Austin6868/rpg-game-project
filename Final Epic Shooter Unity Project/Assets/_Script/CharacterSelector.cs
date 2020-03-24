@@ -7,7 +7,7 @@ public class CharacterSelector : MonoBehaviour
 
     public void SelectCharacter()
     {
-
+        //the player's choice to instantiate between two characters"Hero1" and "Hero2"
         if(gameObject.CompareTag("Hero 1"))
         {
             PlayerPrefs.SetInt("Hero", 1);

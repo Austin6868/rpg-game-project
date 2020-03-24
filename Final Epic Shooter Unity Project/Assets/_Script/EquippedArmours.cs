@@ -12,11 +12,11 @@ public class EquippedArmours : MonoBehaviour , Equipped
     public Sprite Armour4;
     public Sprite Armour5;
 
-    public Sprite [] spriteList = new Sprite [5]  ;
+    public Sprite [] spriteList = new Sprite [5]  ;//make a list of sprites for the armour
 
-    // Start is called before the first frame update
+    
     void Start()
-    {
+    {//populate the list
         spriteList[0] = Armour1;
         spriteList[1] = Armour2;
         spriteList[2] = Armour3;
@@ -24,13 +24,13 @@ public class EquippedArmours : MonoBehaviour , Equipped
         spriteList[4] = Armour5;
     }
 
-    // Update is called once per frame
+    
     void LateUpdate()
     {
         Equip();
         
     }
-    public void Equip()
+    public void Equip()//modifyes the sprite to the appropriated one in the equipped slot(bigger one on the top left)
 	{
         for (int i = 5; i < 10; i++)
         {

@@ -5,15 +5,7 @@ using Cinemachine;
 
 public class CameraControl : MonoBehaviour
 {
-    
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    //Attach the camera to the intantiated player gameObject
     void Update()
     {
         var vcam = GetComponent<CinemachineVirtualCamera>();
