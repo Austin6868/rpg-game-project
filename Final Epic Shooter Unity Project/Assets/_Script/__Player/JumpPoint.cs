@@ -20,29 +20,40 @@ public class JumpPoint : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         Transform playerTransform = player.transform;
         position = playerTransform.position;
+        gameObject.SetActive(true);
         if (Input.GetAxisRaw("Horizontal") == 1)
 		{
+            
             position.y = position.y;
             position.x = position.x + 1.5f;
             position.z = 103.0191f;
         }
         if (Input.GetAxisRaw("Horizontal") == -1)
         {
+            
             position.y = position.y;
             position.x = position.x - 1.5f;
             position.z = 103.0191f;
         }
         if (Input.GetAxisRaw("Vertical") == 1)
         {
+            
             position.y = position.y + 1.5f;
             position.x = position.x ;
             position.z = 103.0191f;
         }
         if (Input.GetAxisRaw("Vertical") == -1)
         {
+            
             position.y = position.y - 1.5f;
             position.x = position.x;
             position.z = 103.0191f;
+        }
+        if ((Input.GetAxisRaw("Vertical") == -1 && Input.GetAxisRaw("Horizontal") == -1 )|| (Input.GetAxisRaw("Vertical") == -1 && Input.GetAxisRaw("Horizontal") == -1) ||(Input.GetAxisRaw("Vertical") == 1&& Input.GetAxisRaw("Horizontal") == -1)|| (Input.GetAxisRaw("Vertical") == 1 && Input.GetAxisRaw("Horizontal") == 1))
+		{
+            position.y = position.y;
+            position.x = position.x ;
+            position.z = 0;
         }
         transform.position = position;
 
