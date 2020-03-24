@@ -5,6 +5,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private Player other1;
+
+    private int scoreHere;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +17,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         other1 = FindObjectOfType<Player>();
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -27,7 +30,9 @@ public class Enemy : MonoBehaviour
         }
         if (other.gameObject.tag == "Bullet")
 		{
-            gameObject.SetActive(false);
+            other1.score++;
+            Destroy(gameObject);
+            
         }
        
     }

@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50
+  enemy: {fileID: 7591144177598485039, guid: c67a3ef511ff44efaaf42daf4e480256, type: 3}
 --- !u!50 &8842595413220655579
 Rigidbody2D:
   serializedVersion: 4
