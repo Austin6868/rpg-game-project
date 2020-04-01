@@ -11,7 +11,7 @@ public class JumpPoint : MonoBehaviour
     //This script handles the ponint before the player that shows where the player is going to teleport to.
     void Update()
     {
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.Find("Player2(Clone)");
         Transform playerTransform = player.transform;
         position = playerTransform.position;
         gameObject.SetActive(true);
@@ -43,7 +43,7 @@ public class JumpPoint : MonoBehaviour
             position.x = position.x;
             position.z = 103.0191f;
         }
-        if ((Input.GetAxisRaw("Vertical") == -1 && Input.GetAxisRaw("Horizontal") == -1 )|| (Input.GetAxisRaw("Vertical") == -1 && Input.GetAxisRaw("Horizontal") == -1) ||(Input.GetAxisRaw("Vertical") == 1&& Input.GetAxisRaw("Horizontal") == -1)|| (Input.GetAxisRaw("Vertical") == 1 && Input.GetAxisRaw("Horizontal") == 1))
+        if ((Input.GetAxisRaw("Vertical") == -1 && Input.GetAxisRaw("Horizontal") == -1 )|| (Input.GetAxisRaw("Vertical") == -1 && Input.GetAxisRaw("Horizontal") == 1) ||(Input.GetAxisRaw("Vertical") == 1&& Input.GetAxisRaw("Horizontal") == -1)|| (Input.GetAxisRaw("Vertical") == 1 && Input.GetAxisRaw("Horizontal") == 1))
 		{
             position.y = position.y;
             position.x = position.x ;
