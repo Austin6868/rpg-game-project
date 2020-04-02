@@ -17,6 +17,7 @@ TagManager:
   - Bullet
   - Gun
   - ScoreText
+  - Portal
   layers:
   - Default
   - TransparentFX

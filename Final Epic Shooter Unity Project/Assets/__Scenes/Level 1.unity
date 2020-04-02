@@ -4711,6 +4711,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5693698013204793830, guid: 4c93c724037a44fb4b8b5d3263ebe250,
     type: 3}
   bulletForce: 10
+  sidewaysForce: 5
 --- !u!1 &981700859
 GameObject:
   m_ObjectHideFlags: 0
@@ -50456,7 +50457,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009587169, y: 0.53784406}
+  m_Offset: {x: -0.009587169, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}

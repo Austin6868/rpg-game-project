@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Player : MonoBehaviour
 	private int currentHealth;
 	public Enemy enemy;
 	public Text scoreText;
+	public GameObject endPortal;
+	private int portalCount = 0;
     //the CurrentHealth property makes sure that the hitpoints of the Player does not go below 0
 	public int CurrentHealth
 	{
@@ -52,6 +55,7 @@ public class Player : MonoBehaviour
 		if (score >= 20)
 		{
 			scoreText.text = "you won";
+			EndGamePortal();
 		}
 		else
 		{
@@ -70,5 +74,25 @@ public class Player : MonoBehaviour
 	{
 		Enemy enemyCopy = Instantiate<Enemy>(enemy);
 
+	}
+
+	public void EndGamePortal()
+	{
+		// This method runs only once after the player completes the first level. It creates a portal to the next scene.
+		if (portalCount == 0)
+		{
+			Vector3 pos = new Vector3(0, 0, 0);
+			Instantiate(endPortal, pos, Quaternion.identity);
+		}
+		portalCount++;
+
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag("Portal"))
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		}
 	}
 }

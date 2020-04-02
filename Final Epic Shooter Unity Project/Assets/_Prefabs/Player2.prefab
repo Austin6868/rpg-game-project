@@ -118,8 +118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f80200940914ac083241b052167ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   maxHealth: 50
   enemy: {fileID: 7591144177598485039, guid: c67a3ef511ff44efaaf42daf4e480256, type: 3}
+  scoreText: {fileID: 0}
+  endPortal: {fileID: 7272402466257018302, guid: 2ae5cee054fa9d14bb5ac692e9b099a5,
+    type: 3}
 --- !u!50 &8842595413220655579
 Rigidbody2D:
   serializedVersion: 4
