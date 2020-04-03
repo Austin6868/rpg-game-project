@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 	private int currentHealth;
 	public Enemy enemy;
 	public Text scoreText;
-	public GameObject endPortal;
+	public GameObject endPortal, replayPortal, previousPortal;
 	private int portalCount = 0;
     //the CurrentHealth property makes sure that the hitpoints of the Player does not go below 0
 	public int CurrentHealth
@@ -78,11 +78,19 @@ public class Player : MonoBehaviour
 
 	public void EndGamePortal()
 	{
-		// This method runs only once after the player completes the first level. It creates a portal to the next scene.
+		// This method runs only once after the player completes the first level. It creates a portal to the next scene, a portal to
+		// the previous scene, and a portal to replay the current scene, if the player would like to replay it for more experience points.
 		if (portalCount == 0)
 		{
-			Vector3 pos = new Vector3(0, 0, 0);
+			Vector3 pos = new Vector3(0, 0, 91);
+			Vector3 pos2 = new Vector3(3, 0, 91);
+			Vector3 pos3 = new Vector3(-3, 0, 91);
 			Instantiate(endPortal, pos, Quaternion.identity);
+			Instantiate(replayPortal, pos2, Quaternion.identity);
+			if (SceneManager.GetActiveScene().buildIndex != 1)
+			{
+				Instantiate(previousPortal, pos3, Quaternion.identity);
+			}
 		}
 		portalCount++;
 
@@ -94,5 +102,15 @@ public class Player : MonoBehaviour
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 		}
+		else if (other.gameObject.CompareTag("Replay Portal"))
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
+		else if (other.gameObject.CompareTag("Previous Portal"))
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+		}
+
+		// The last one ensures that the Previous Scene portal only comes up when we aren't playing on level 1 (or it would just load menu).
 	}
 }

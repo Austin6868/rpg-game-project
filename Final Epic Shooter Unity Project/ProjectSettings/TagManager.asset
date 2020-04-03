@@ -18,6 +18,8 @@ TagManager:
   - Gun
   - ScoreText
   - Portal
+  - Replay Portal
+  - Previous Portal
   layers:
   - Default
   - TransparentFX

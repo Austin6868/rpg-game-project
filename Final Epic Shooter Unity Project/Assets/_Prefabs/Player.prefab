@@ -120,6 +120,10 @@ MonoBehaviour:
   scoreText: {fileID: 0}
   endPortal: {fileID: 7272402466257018302, guid: 2ae5cee054fa9d14bb5ac692e9b099a5,
     type: 3}
+  replayPortal: {fileID: 7272402466257018302, guid: b9ac04322fadb134d8e659b9c2c94cce,
+    type: 3}
+  previousPortal: {fileID: 7272402466257018302, guid: ad112da5b5aecee4db0cf30a3f1b53ea,
+    type: 3}
 --- !u!95 &8470913107468011228
 Animator:
   serializedVersion: 3

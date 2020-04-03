@@ -94,8 +94,8 @@ GameObject:
   - component: {fileID: 4560892472063056942}
   - component: {fileID: 880326610598450450}
   m_Layer: 0
-  m_Name: LevelSwitchPortal
-  m_TagString: Portal
+  m_Name: PreviousLevel
+  m_TagString: Previous Portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -188,9 +188,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7272402466257018302}
-  m_Text: 'Proceed to
-
-    next level'
+  m_Text: Go to previous level
   m_OffsetZ: 0
   m_CharacterSize: 0.25
   m_LineSpacing: 1
