@@ -73,9 +73,8 @@ public class Player : MonoBehaviour
 	public void GenerateEnemy()//the method that handles the instantiation of the enemy
 	{
 		Enemy enemyCopy = Instantiate<Enemy>(enemy);
-
+        
 	}
-
 	public void EndGamePortal()
 	{
 		// This method runs only once after the player completes the first level. It creates a portal to the next scene, a portal to

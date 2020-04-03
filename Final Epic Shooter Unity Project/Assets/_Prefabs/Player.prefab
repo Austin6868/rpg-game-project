@@ -117,6 +117,8 @@ MonoBehaviour:
   score: 0
   maxHealth: 200
   enemy: {fileID: 7591144177598485039, guid: c67a3ef511ff44efaaf42daf4e480256, type: 3}
+  enemyTwo: {fileID: 2081911379330163928, guid: 85af6ff91b04342debf51909ce8aea98,
+    type: 3}
   scoreText: {fileID: 0}
   endPortal: {fileID: 7272402466257018302, guid: 2ae5cee054fa9d14bb5ac692e9b099a5,
     type: 3}

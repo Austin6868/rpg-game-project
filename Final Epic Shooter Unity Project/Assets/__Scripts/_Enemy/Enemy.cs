@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     private int scoreHere;
     
 
-    void Update()
+    protected virtual void Update()
     {
         other1 = FindObjectOfType<Player>();
         
