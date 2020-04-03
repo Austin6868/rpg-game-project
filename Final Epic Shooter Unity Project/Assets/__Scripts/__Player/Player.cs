@@ -85,7 +85,10 @@ public class Player : MonoBehaviour
 			Vector3 pos = new Vector3(0, 0, 91);
 			Vector3 pos2 = new Vector3(3, 0, 91);
 			Vector3 pos3 = new Vector3(-3, 0, 91);
-			Instantiate(endPortal, pos, Quaternion.identity);
+			if (SceneManager.GetActiveScene().buildIndex != 2)
+			{
+				Instantiate(endPortal, pos, Quaternion.identity);
+			}
 			Instantiate(replayPortal, pos2, Quaternion.identity);
 			if (SceneManager.GetActiveScene().buildIndex != 1)
 			{
