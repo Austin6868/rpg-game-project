@@ -8,12 +8,7 @@ public class Enemy : MonoBehaviour
 
     private int scoreHere;
     
-    void Start()
-    {
-        
-    }
 
-    
     void Update()
     {
         other1 = FindObjectOfType<Player>();
@@ -32,7 +27,6 @@ public class Enemy : MonoBehaviour
 		{
             other1.score++;
             Destroy(gameObject);
-            
         }
        
     }
