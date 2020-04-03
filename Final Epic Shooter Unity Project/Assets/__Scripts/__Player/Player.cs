@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
 			GameObject.FindWithTag("Gun").SetActive(false);
 		}
 		scoreText = GameObject.Find("Text").GetComponent<Text>();
-		if (score >= 20)
+		if (score >= 2)
 		{
 			scoreText.text = "you won";
 			EndGamePortal();
@@ -99,21 +99,4 @@ public class Player : MonoBehaviour
 
 	}
 
-	void OnTriggerEnter2D(Collider2D other)
-	{
-		if (other.gameObject.CompareTag("Portal"))
-		{
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-		}
-		else if (other.gameObject.CompareTag("Replay Portal"))
-		{
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-		}
-		else if (other.gameObject.CompareTag("Previous Portal"))
-		{
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-		}
-
-		// The last one ensures that the Previous Scene portal only comes up when we aren't playing on level 1 (or it would just load menu).
-	}
 }
