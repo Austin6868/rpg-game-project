@@ -5,15 +5,11 @@ using UnityEngine.UI;
 
 public class DisplayExp : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+
+    
     void Update()
     {
-        gameObject.GetComponent<Text>().text = "EXP: " + Equipment.E.exp.ToString();
+        gameObject.GetComponent<Text>().text = "EXP: " + Equipment.E.exp.ToString();//displaying the exp count
     }
 }

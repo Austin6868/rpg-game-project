@@ -20,11 +20,11 @@ public class Gun : MonoBehaviour
     
 
     public Sprite[] spriteList = new Sprite[5];
-    // Start is called before the first frame update
+    
     void Start()
     {
         
-        //the sprite list for guns
+        //populating the sprite list for guns
         spriteList[0] = Gun1;
         spriteList[1] = Gun2;
         spriteList[2] = Gun3;
@@ -33,8 +33,7 @@ public class Gun : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    void FixedUpdate()//the method that handles the direction of the gun
     {
         player = GameObject.FindWithTag("Player");
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -49,7 +48,7 @@ public class Gun : MonoBehaviour
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         
-        if (angle >90f || angle< -90f)
+        if (angle >90f || angle< -90f)//position adjustment of the gun for more reasonable gameplay
 		{
             position.y = position.y + 0.1f;
             position.x = position.x - 0.1f;
@@ -64,7 +63,7 @@ public class Gun : MonoBehaviour
         Equip();
     }
 
-    public void Equip()
+    public void Equip()//equipping different guns from the sprite list
     {
         for (int i = 0; i < 5; i++)
         {

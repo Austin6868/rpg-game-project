@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
-
+//intereted from the base enemy class
 public class EnemyTwo :Enemy
 {
 
@@ -14,10 +14,10 @@ public class EnemyTwo :Enemy
 	{
         InvokeRepeating("Shoot",2f,2f);
     }
-    // Update is called once per frame
+    
     protected override void Update()
     {
-        
+        //this is a library that is implemented for the Ai in the game and this is for the flipping the sprite of the enemy
         aiPath = gameObject.GetComponent<AIPath>();
         if (aiPath.desiredVelocity.x >= 0.01f) 
 		{
@@ -36,11 +36,11 @@ public class EnemyTwo :Enemy
     }
     void Shoot()
     { 
-            Instantiate(fireBall,new Vector3(transform.position.x , transform.position.y , 91f), Quaternion.identity);
+            Instantiate(fireBall,new Vector3(transform.position.x , transform.position.y , 91f), Quaternion.identity);//the shooting of the enemy towards the player
     }
 
 
-    protected override void OnTriggerEnter2D(Collider2D other)
+    protected override void OnTriggerEnter2D(Collider2D other)//enemy getting hit by the bullets and suffers a greater damage by sniper rifles
 	{
         if (other.gameObject.CompareTag("Bullet") && Equipment.E.EG == 2)
 		{

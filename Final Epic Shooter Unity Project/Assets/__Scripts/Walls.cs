@@ -6,20 +6,16 @@ public class Walls : MonoBehaviour
 {
 
     private GameObject player;
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
 
-    // Update is called once per frame
+
+
     void Update()
     {
         player = GameObject.FindWithTag("Player");
 
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)//this collider handles the opacity change of when the player enters the back of the building
 	{
         if(col.gameObject.tag == "Player")
 		{
@@ -30,7 +26,7 @@ public class Walls : MonoBehaviour
 	}
     void OnTriggerExit2D(Collider2D col)
 	{
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag == "Player")//the building's alpha back to where it was after going out
         {
             Color tmp = gameObject.GetComponent<SpriteRenderer>().color;
             tmp.a = 1f;

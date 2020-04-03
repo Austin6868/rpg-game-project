@@ -6,24 +6,24 @@ public class FireBallMovement : MonoBehaviour
 {
     private Vector3 target;
     private Player other1;
-    // Start is called before the first frame update
+
     void Start()
     {
-        other1 = FindObjectOfType<Player>();
+        other1 = FindObjectOfType<Player>();//find the position of the player
         target = new Vector3 (GameObject.FindWithTag("Player").transform.position.x, GameObject.FindWithTag("Player").transform.position.y,91);
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, target, 5 * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, target, 5 * Time.deltaTime);//make a fireball that goes towards the player at a reasonable speed
         if (transform.position.x == target.x && transform.position.y == target.y)
 		{
             Destroy(gameObject);
 		}
         
     }
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)//the player takes damaga when hit
 	{
         if (other.gameObject.tag == "Player")
 		{

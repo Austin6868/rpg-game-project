@@ -44,9 +44,9 @@ public class Shooting : MonoBehaviour
         shootable = false;
         Invoke("CanShoot", 0.2f);
     }
-    void Shoot2()
+    void Shoot2()// the gun that shoots the 3 bullets at a time
 	{
-        if (Equipment.E.exp >= 200)
+        if (Equipment.E.exp >= 200)//200 exp needed to unlock
         {
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             GameObject bullet2 = Instantiate(bulletPrefab, firePoint.position + firePoint.up * 0.1f, firePoint.rotation);
@@ -61,9 +61,9 @@ public class Shooting : MonoBehaviour
             Invoke("CanShoot", 0.5f);
         }
     }
-    void Shoot3()
+    void Shoot3()// the sniper rifle
 	{
-        if (Equipment.E.exp >= 1000)
+        if (Equipment.E.exp >= 1000)//1000 exp needed to unlock
         {
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

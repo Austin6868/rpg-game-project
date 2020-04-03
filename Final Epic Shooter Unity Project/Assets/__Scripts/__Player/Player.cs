@@ -47,14 +47,14 @@ public class Player : MonoBehaviour
 	
 	void Update()
 	{
-		boss = GameObject.Find("Enemy 2");
+		boss = GameObject.Find("Enemy 2");// get the scores and texts for the display
 		if (currentHealth <= 0)//the player dies after running out of hitpoints
 		{
 			GameObject.FindWithTag("Player").SetActive(false);
 			GameObject.FindWithTag("Gun").SetActive(false);
 		}
 		scoreText = GameObject.Find("Text").GetComponent<Text>();
-		if (SceneManager.GetActiveScene().buildIndex == 1 && score >= 20)
+		if (SceneManager.GetActiveScene().buildIndex == 1 && score >= 20)//when the first level is won
 		{
 			scoreText.text = "you won";
 			CancelInvoke();
@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
 		{
 			scoreText.text = "Score : " + score;//the text of the score is displayed in the text in the hierarichy
 		}
-		if (SceneManager.GetActiveScene().buildIndex == 2 && boss == null)
+		if (SceneManager.GetActiveScene().buildIndex == 2 && boss == null)//when the second level is won
 		{
 			scoreText.text = "you won";
 			CancelInvoke();
