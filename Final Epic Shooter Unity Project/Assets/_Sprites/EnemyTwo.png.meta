@@ -1,7 +1,337 @@
 fileFormatVersion: 2
 guid: 8cdd9cd8af57a43b19983e4c35992fb6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2671739208080045998
+    second: EnemyTwo_0
+  - first:
+      213: -1583778867410832067
+    second: EnemyTwo_1
+  - first:
+      213: -4696385123234234462
+    second: EnemyTwo_2
+  - first:
+      213: -5177294854156673791
+    second: EnemyTwo_3
+  - first:
+      213: 2369290783656004254
+    second: EnemyTwo_4
+  - first:
+      213: 5717798453698622196
+    second: EnemyTwo_5
+  - first:
+      213: -1546069532198243373
+    second: EnemyTwo_6
+  - first:
+      213: -6108965137122983981
+    second: EnemyTwo_7
+  - first:
+      213: -2476364691882085146
+    second: EnemyTwo_8
+  - first:
+      213: -2794531055548674728
+    second: EnemyTwo_9
+  - first:
+      213: 2816857728584360166
+    second: EnemyTwo_10
+  - first:
+      213: 281040344753570184
+    second: EnemyTwo_11
+  - first:
+      213: -96644495735384224
+    second: EnemyTwo_12
+  - first:
+      213: 3156840972590331358
+    second: EnemyTwo_13
+  - first:
+      213: 1714008645964945602
+    second: EnemyTwo_14
+  - first:
+      213: -652722236811357832
+    second: EnemyTwo_15
+  - first:
+      213: -4969685729058749436
+    second: EnemyTwo_16
+  - first:
+      213: 6707934737619609731
+    second: EnemyTwo_17
+  - first:
+      213: -4700444094213977493
+    second: EnemyTwo_18
+  - first:
+      213: 723017696834189275
+    second: EnemyTwo_19
+  - first:
+      213: -3415155534473925213
+    second: EnemyTwo_20
+  - first:
+      213: -7095049460598768375
+    second: EnemyTwo_21
+  - first:
+      213: -3172251722013692653
+    second: EnemyTwo_22
+  - first:
+      213: -4928958837182979626
+    second: EnemyTwo_23
+  - first:
+      213: 3152408569000502
+    second: EnemyTwo_24
+  - first:
+      213: -5932011426014645157
+    second: EnemyTwo_25
+  - first:
+      213: 2310648795802495065
+    second: EnemyTwo_26
+  - first:
+      213: 68998416914132009
+    second: EnemyTwo_27
+  - first:
+      213: -2164823345440672174
+    second: EnemyTwo_28
+  - first:
+      213: -5735785206272716048
+    second: EnemyTwo_29
+  - first:
+      213: 5471958593672893462
+    second: EnemyTwo_30
+  - first:
+      213: -4730696374069305360
+    second: EnemyTwo_31
+  - first:
+      213: -6181153080739257016
+    second: EnemyTwo_32
+  - first:
+      213: -1588119663334625187
+    second: EnemyTwo_33
+  - first:
+      213: 3832500940118193528
+    second: EnemyTwo_34
+  - first:
+      213: 456473371301957628
+    second: EnemyTwo_35
+  - first:
+      213: -8008737191979416085
+    second: EnemyTwo_36
+  - first:
+      213: -105088839097180778
+    second: EnemyTwo_37
+  - first:
+      213: -8245029432125564544
+    second: EnemyTwo_38
+  - first:
+      213: 5538388276197095077
+    second: EnemyTwo_39
+  - first:
+      213: 3046707781039137586
+    second: EnemyTwo_40
+  - first:
+      213: -4981635930369446165
+    second: EnemyTwo_41
+  - first:
+      213: -9040703902058212266
+    second: EnemyTwo_42
+  - first:
+      213: -6402469412318136406
+    second: EnemyTwo_43
+  - first:
+      213: 2120611067337328951
+    second: EnemyTwo_44
+  - first:
+      213: -6810220331840272303
+    second: EnemyTwo_45
+  - first:
+      213: -1990533375090947324
+    second: EnemyTwo_46
+  - first:
+      213: 6425838759702711168
+    second: EnemyTwo_47
+  - first:
+      213: 421983669962658963
+    second: EnemyTwo_48
+  - first:
+      213: -6400263987027924653
+    second: EnemyTwo_49
+  - first:
+      213: 4909654393213254036
+    second: EnemyTwo_50
+  - first:
+      213: -1983532543226581232
+    second: EnemyTwo_51
+  - first:
+      213: 4324846912762279888
+    second: EnemyTwo_52
+  - first:
+      213: 705296640111279031
+    second: EnemyTwo_53
+  - first:
+      213: 3662937564497654383
+    second: EnemyTwo_54
+  - first:
+      213: 4141908429766793745
+    second: EnemyTwo_55
+  - first:
+      213: 6301931556465445236
+    second: EnemyTwo_56
+  - first:
+      213: 4505245351411395165
+    second: EnemyTwo_57
+  - first:
+      213: 4366981953067810518
+    second: EnemyTwo_58
+  - first:
+      213: -4869150204049536056
+    second: EnemyTwo_59
+  - first:
+      213: 364920309590455525
+    second: EnemyTwo_60
+  - first:
+      213: -470649578125293714
+    second: EnemyTwo_61
+  - first:
+      213: 7487196417155013958
+    second: EnemyTwo_62
+  - first:
+      213: -4973813292522185580
+    second: EnemyTwo_63
+  - first:
+      213: 7579329839464825748
+    second: EnemyTwo_64
+  - first:
+      213: -4571462957261272502
+    second: EnemyTwo_65
+  - first:
+      213: 2614441962868445374
+    second: EnemyTwo_66
+  - first:
+      213: -917083448789770835
+    second: EnemyTwo_67
+  - first:
+      213: -5172461468547281644
+    second: EnemyTwo_68
+  - first:
+      213: -4364222221798172937
+    second: EnemyTwo_69
+  - first:
+      213: 4994232331931271094
+    second: EnemyTwo_70
+  - first:
+      213: -9074198871918446797
+    second: EnemyTwo_71
+  - first:
+      213: 3428291384255500592
+    second: EnemyTwo_72
+  - first:
+      213: -6964122224707037277
+    second: EnemyTwo_73
+  - first:
+      213: -5435384284369871009
+    second: EnemyTwo_74
+  - first:
+      213: -2296385860525318870
+    second: EnemyTwo_75
+  - first:
+      213: -4912664502338126109
+    second: EnemyTwo_76
+  - first:
+      213: 745105131265947842
+    second: EnemyTwo_77
+  - first:
+      213: -7014547984353278666
+    second: EnemyTwo_78
+  - first:
+      213: -486052897751478535
+    second: EnemyTwo_79
+  - first:
+      213: 3377305436628799201
+    second: EnemyTwo_80
+  - first:
+      213: 9222140099215044506
+    second: EnemyTwo_81
+  - first:
+      213: -8110755648724528306
+    second: EnemyTwo_82
+  - first:
+      213: 4080821901155375451
+    second: EnemyTwo_83
+  - first:
+      213: 7512271281979274181
+    second: EnemyTwo_84
+  - first:
+      213: 3226019265988887442
+    second: EnemyTwo_85
+  - first:
+      213: -793357090577923416
+    second: EnemyTwo_86
+  - first:
+      213: 7650359469839933681
+    second: EnemyTwo_87
+  - first:
+      213: -6789797702177107083
+    second: EnemyTwo_88
+  - first:
+      213: 3160732574422298604
+    second: EnemyTwo_89
+  - first:
+      213: 754635551493797338
+    second: EnemyTwo_90
+  - first:
+      213: -3903031460744174692
+    second: EnemyTwo_91
+  - first:
+      213: -1873760111430969966
+    second: EnemyTwo_92
+  - first:
+      213: -7402370717936567052
+    second: EnemyTwo_93
+  - first:
+      213: 4711506168107515958
+    second: EnemyTwo_94
+  - first:
+      213: -3575949067070887805
+    second: EnemyTwo_95
+  - first:
+      213: 2276154883102005780
+    second: EnemyTwo_96
+  - first:
+      213: -8348428997307922008
+    second: EnemyTwo_97
+  - first:
+      213: 5580567044511777241
+    second: EnemyTwo_98
+  - first:
+      213: -1353884539280138934
+    second: EnemyTwo_99
+  - first:
+      213: 2163120578852936666
+    second: EnemyTwo_100
+  - first:
+      213: 844905306516064858
+    second: EnemyTwo_101
+  - first:
+      213: -8420044416192098357
+    second: EnemyTwo_0
+  - first:
+      213: 3842330026149587875
+    second: EnemyTwo_1
+  - first:
+      213: 3575655023396446177
+    second: EnemyTwo_2
+  - first:
+      213: 3607753784311238642
+    second: EnemyTwo_3
+  - first:
+      213: 5055053805643913644
+    second: EnemyTwo_4
+  - first:
+      213: 7024011665694684843
+    second: EnemyTwo_5
+  - first:
+      213: -8672530942486123971
+    second: EnemyTwo_6
+  - first:
+      213: -2625025417901803617
+    second: EnemyTwo_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +370,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +400,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: EnemyTwo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfcbdbf63ef52b80800000000000000
+      internalID: -8420044416192098357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 375
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aba67e1dc2b25530800000000000000
+      internalID: 3842330026149587875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 375
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efd2e49c474f9130800000000000000
+      internalID: 3575655023396446177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 375
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff41feb3f0511230800000000000000
+      internalID: 3607753784311238642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_4
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 375
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca954e547a8272640800000000000000
+      internalID: 5055053805643913644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba67ee7256d4a7160800000000000000
+      internalID: 7024011665694684843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 185
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ae78d8e0bf4a780800000000000000
+      internalID: -8672530942486123971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 185
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9777975a49029bd0800000000000000
+      internalID: -2625025417901803617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_8
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 185
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e47c0ede6f22add0800000000000000
+      internalID: -2476364691882085146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyTwo_9
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 185
+        width: 188
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d4930afc4d739d0800000000000000
+      internalID: -2794531055548674728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
