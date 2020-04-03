@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
 	public int maxHealth = 100;
 	private int currentHealth;
 	public Enemy enemy;
+	public GameObject boss;
 	public Text scoreText;
 	public GameObject endPortal, replayPortal, previousPortal;
 	private int portalCount = 0;
@@ -46,21 +47,31 @@ public class Player : MonoBehaviour
 	
 	void Update()
 	{
+		boss = GameObject.Find("Enemy 2");
 		if (currentHealth <= 0)//the player dies after running out of hitpoints
 		{
 			GameObject.FindWithTag("Player").SetActive(false);
 			GameObject.FindWithTag("Gun").SetActive(false);
 		}
 		scoreText = GameObject.Find("Text").GetComponent<Text>();
-		if (score >= 20)
+		if (SceneManager.GetActiveScene().buildIndex == 1 && score >= 20)
 		{
 			scoreText.text = "you won";
+			CancelInvoke();
 			EndGamePortal();
 		}
-		else
+		else if (SceneManager.GetActiveScene().buildIndex == 1)
 		{
 			scoreText.text = "Score : " + score;//the text of the score is displayed in the text in the hierarichy
 		}
+		if (SceneManager.GetActiveScene().buildIndex == 2 && boss == null)
+		{
+			scoreText.text = "you won";
+			CancelInvoke();
+			EndGamePortal();
+		}
+
+
 	}
 
 	public void TakeDamage(int damage)//the mothod that modifies player's health

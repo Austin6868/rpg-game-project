@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     private Player other1;
 
     private int scoreHere;
+
     
 
     protected virtual void Update()
@@ -15,7 +16,7 @@ public class Enemy : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    protected virtual void OnTriggerEnter2D(Collider2D other)
     {//On trigger enter method that detects the collision between the player and the enemy
         if (other.gameObject.tag == "Player")
         {//the if statement varifies whether the object is the desired enemy kill
@@ -25,9 +26,9 @@ public class Enemy : MonoBehaviour
         }
         if (other.gameObject.tag == "Bullet")
 		{
+            Equipment.E.exp += 20;
             other1.score++;
             Destroy(gameObject);
         }
-       
     }
 }

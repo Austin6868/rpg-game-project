@@ -12,6 +12,7 @@ public class EquippedGuns : MonoBehaviour , Equipped
     public Sprite Gun4;
     public Sprite Gun5;
 
+
     public Sprite[] spriteList = new Sprite[5];//a list of guns 
 
     

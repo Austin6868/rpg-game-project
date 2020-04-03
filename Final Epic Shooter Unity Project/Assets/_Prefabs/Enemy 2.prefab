@@ -180,4 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31545b7ecb10949da900d25717d4b6be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealth: 1000
+  fireBall: {fileID: 5084726648074551797, guid: 483de9e4ad4c9447c9f11708b7dc39e4,
+    type: 3}

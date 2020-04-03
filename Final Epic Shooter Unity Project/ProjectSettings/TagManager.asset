@@ -21,6 +21,9 @@ TagManager:
   - Replay Portal
   - Previous Portal
   - FX
+  - XpTag
+  - FireBall
+  - BulletSniper
   layers:
   - Default
   - TransparentFX

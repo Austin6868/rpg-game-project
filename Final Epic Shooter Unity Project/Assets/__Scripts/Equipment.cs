@@ -28,6 +28,7 @@ public class Equipment
 
     public float EA = 5;//the index of equipped armour
     public float EG = 0;//the index of equipped guns
+    public int exp;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +56,7 @@ public class Equipment
         }
         Debug.Log(EA);
 
+
     }
     public void ModifySlot(int i)//the method that reaches out for the changes of the the weapons and armours
 	{
@@ -68,4 +70,12 @@ public class Equipment
         
 
 	}
+    public void addXPEnemy()
+    {
+        exp += 20;
+    }
+    public void addXPEnemyTwo()
+    {
+        exp += 200;
+    }
 }
