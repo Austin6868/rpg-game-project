@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
 			GameObject.FindWithTag("Gun").SetActive(false);
 		}
 		scoreText = GameObject.Find("Text").GetComponent<Text>();
-		if (score >= 2)
+		if (score >= 20)
 		{
 			scoreText.text = "you won";
 			EndGamePortal();
