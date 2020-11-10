@@ -1,4 +1,4 @@
-# This is the readme file
+# Readme
 For Unity SE2250 project
 
 This project is created and worked on by a 4-person team.
